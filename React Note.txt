@@ -1,0 +1,32 @@
+JSX INITIALIZE WITH COLON ()
+EX: ()=>{
+    return (<h1>HJA</h1>)
+}
+TO PASSING FUNCTION FROM CORE FUNCTION, CALL THE FUNCTION FROM CORE THEN PASSING IT UNTIL IT REACH DESTINATION
+EX
+APP.JS
+    import tag from './tag.js'
+    import * as comp from './location/of file'
+    ...
+    return(
+        <tag someFunc={comp.func1}/>
+    )
+tag.js
+    import tagging frim './tagging.js'
+    const tag = ({someFunc})=>{
+        ....
+        return(
+            <tagging along={ () => {someFunc()} }/>
+        )
+    }
+tagging.js
+    const tagging = ({along})=>{
+        ....
+        return(
+            <h3 onClick={() => {along()} }>BEST </h3>
+        )
+    }
+
+
+STATE ARE IMUTTABLE, IT WILL UPDATE AND RESEND IT
+SETSTATE() METHOD NEED TO REPOPULATE ARRAY TO UPDATE THE VALUE

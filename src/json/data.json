@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "text": "Wake Up",
+        "day": "Feb 3th 2019 at 06:30",
+        "reminder" : true
+    },
+    {
+        "id": 2,
+        "text": "Breakfast",
+        "day": "Feb 3th 2019 at 06:55",
+        "reminder" : false
+    },
+    {
+        "id": 3,
+        "text": "Workup",
+        "day": "Feb 3th 2019 at 07:30",
+        "reminder" : true
+    }
+]
